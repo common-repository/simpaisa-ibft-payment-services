@@ -1,0 +1,118 @@
+.sp_ibft_field {
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.sp_ibft_field::-webkit-outer-spin-button,
+.sp_ibft_field::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+.sp_ibft_field[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+.simpaisa-ibft-card a {
+    -webkit-transition: all 150ms ease 0s;
+    -moz-transition: all 150ms ease 0s;
+    -o-transition: all 150ms ease 0s;
+    -ms-transition: all 150ms ease 0s;
+    transition: all 150ms ease 0s;
+}
+
+
+.simpaisa-ibft-card {
+    border: 1px solid #cbcbcb;
+    display: inline-block;
+    position: relative;
+    box-shadow: none;
+    border-radius: 5px;
+    padding: 1rem;
+    background: #fff;
+}
+
+.simpaisa-ibft-card .simpaisa-ibft-card-header {
+    background-color: transparent;
+    border-bottom: 0;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+    margin-bottom: 0.8rem;
+    /* height: 50px; */
+}
+
+.simpaisa-ibft-card[data-background-color="orange"] {
+    background-color: #f96332;
+}
+
+.simpaisa-ibft-card[data-background-color="red"] {
+    background-color: #FF3636;
+}
+
+.simpaisa-ibft-card[data-background-color="yellow"] {
+    background-color: #FFB236;
+}
+
+.simpaisa-ibft-card[data-background-color="blue"] {
+    background-color: #2CA8FF;
+}
+
+.simpaisa-ibft-card[data-background-color="green"] {
+    background-color: #15b60d;
+}
+
+#wc-simpaisa_woo_jz_ep_wallet-cc-form {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+/* .payment_method_simpaisa_woo_jz_ep_wallet {
+    padding-left: 0px !important;
+} */
+
+.sp_ibft_field{
+    border: 1px solid #918C8C;
+    border-radius: 0.4rem;
+    font-size: var(--wp--preset--font-size--small);
+    width: 100%;
+    background: #fff;
+}
+
+
+.simpaisa-ibft-body{
+    margin-top: 0.8rem;
+}
+
+.simpaisa-ibft-err{
+    font-size: small;
+    color: red;
+}
+
+.simpaisa-ibft-bank-err{
+    font-size: small;
+    color: red;
+}
+
+.simpaisa-ibft-otp-err{
+    font-size: small;
+    color: red;
+}
+
+.simpaisa-ibft-cnic-err{
+    font-size: small;
+    color: red;
+}
+
+.simpaisa-ibft-account-err{
+    font-size: small;
+    color: red;
+}
+
+.simpaisa-ibft-phone-err{
+    font-size: small;
+    color: red;
+}
